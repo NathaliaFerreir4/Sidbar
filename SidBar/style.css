@@ -1,0 +1,53 @@
+body{
+    background-color: bisque;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    display: flex;
+}
+.menu-content{
+    background-color: white;
+    width: 30%;
+    padding-bottom: 10%;
+}
+.close-button{
+    width: 10%;
+    height: 10%;
+    margin-left: 80%;
+    background: url(xis.svg);
+    cursor: pointer;
+    border: none;
+}
+.imagem-botao{
+    width: 5%;
+    height: 5%;
+    align-items:flex-end;
+    cursor: pointer;
+}
+
+h1{
+    margin: 4%;
+}
+li{
+    list-style-type: none;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+}
+#logo-menu{
+    margin-left: 50%;
+    margin-top: 2%;
+}
+#abrir{
+    background: url('https://raw.githubusercontent.com/alura-cursos/alurabooks/2c2d01dce8fb86198de987b04a64befeb3b72ba1/img/Menu.svg') no-repeat;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    border: none;
+}
